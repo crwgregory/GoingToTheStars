@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>rock_planet_sprite_by_fidgetwidget-d32erpc.png</Source>
+      <Name>rock_planet_sprite_by_fidgetwidget-d32erpc</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Greg Christopherson\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\rock_planet_sprite_by_fidgetwidget-d32erpc.xnb</Output>
+      <Time>2014-11-28T09:32:16.2696366-07:00</Time>
+    </Item>
+    <Item>
+      <Source>011.jpg</Source>
+      <Name>011</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Greg Christopherson\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\011.xnb</Output>
+      <Time>2014-11-28T10:45:32.0782313-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Planet.png</Source>
+      <Name>Planet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Greg Christopherson\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\Planet.xnb</Output>
+      <Time>2014-11-28T10:47:26.7720158-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Circle.png</Source>
+      <Name>Circle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Greg Christopherson\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\Circle.xnb</Output>
+      <Time>2014-11-28T12:22:27.1032924-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sun.png</Source>
+      <Name>Sun</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Greg Christopherson\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\Sun.xnb</Output>
+      <Time>2014-11-28T12:24:48.6000686-07:00</Time>
+    </Item>
+    <Item>
+      <Source>PlanetHM.png</Source>
+      <Name>PlanetHM</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Greg Christopherson\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\PlanetHM.xnb</Output>
+      <Time>2014-11-28T12:26:38.0514632-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Ship.png</Source>
+      <Name>Ship</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Greg Christopherson\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\Ship.xnb</Output>
+      <Time>2014-11-28T17:25:55.1148829-07:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{3558302C-FC06-4324-B212-9E14822A94E8}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Greg Christopherson\Documents\GitHub\GoingToTheStars\Shootin\Shootin\ShootinContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Greg Christopherson\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Greg Christopherson\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Greg Christopherson\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-11-27T21:23:34.432337-07:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

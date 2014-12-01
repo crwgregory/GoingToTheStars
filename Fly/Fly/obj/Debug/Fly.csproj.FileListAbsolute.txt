@@ -1,0 +1,6 @@
+C:\Users\Greg Christopherson\Documents\GitHub\GoingToTheStars\Fly\Fly\bin\Debug\Fly.exe.config
+C:\Users\Greg Christopherson\Documents\GitHub\GoingToTheStars\Fly\Fly\bin\Debug\Fly.exe
+C:\Users\Greg Christopherson\Documents\GitHub\GoingToTheStars\Fly\Fly\bin\Debug\Fly.pdb
+C:\Users\Greg Christopherson\Documents\GitHub\GoingToTheStars\Fly\Fly\obj\Debug\Fly.exe
+C:\Users\Greg Christopherson\Documents\GitHub\GoingToTheStars\Fly\Fly\obj\Debug\Fly.pdb
+C:\Users\Greg Christopherson\Documents\GitHub\GoingToTheStars\Fly\Fly\obj\Debug\Fly.csprojResolveAssemblyReference.cache
