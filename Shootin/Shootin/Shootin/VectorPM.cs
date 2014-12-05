@@ -37,6 +37,26 @@ namespace Shootin
             this.Gravity = 0;
         }
 
+        public bool speedcap(VectorPM vec)
+        {
+            //take the hypotonose of both velocity and current axis's and compares them if they are to far apart then they will return false 
+            //as an idea of a speed cap
+            double hypotonusOfV = Math.Sqrt(vec.VelocityX * vec.VelocityX + vec.VelocityY * vec.VelocityY);
+            double hypotonusOfA = Math.Sqrt(vec.XAxis * vec.XAxis + vec.YAxis * vec.YAxis);
+
+            double percent = hypotonusOfV / hypotonusOfA;
+
+            if (percent > .01)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+
+        }
+
         public void Create(double x, double y, double Angle, double Length, double grav = 0)
         {
             //sets teh starting points of Vector
@@ -82,82 +102,10 @@ namespace Shootin
 
         public void UseVelocity()
         {
-
-
             this.XAxis += this.VelocityX;
             this.YAxis += this.VelocityY;
 
 
-
-            //double X = this.XAxis;
-            //double VX = this.VelocityX;
-
-            //double Y = this.YAxis;
-            //double VY = this.VelocityY;
-
-
-
-            //if (X < VX)
-            //{
-            //    double between = VX - X;
-            //    double onePercentOf = VX * 0.01;
-
-            //    X += between;
-            //    if (X > (VX - onePercentOf))
-            //    {
-            //        X = VX;
-            //    }
-            //}
-            //else if (X > VX)
-            //{
-            //    double between = X - VX;
-            //    double onePercentOf = VX * 0.01;
-
-            //    X -= between;
-            //    if (X < (VX + onePercentOf))
-            //    {
-            //        X = VX;
-            //    }
-            //}
-
-            //this.XAxis = X;
-
-
-
-
-
-
-
-            //if (this.XAxis != this.VelocityX)
-            //{
-            //    if (this.XAxis < this.VelocityX)
-            //    {
-            //        //X axis is less then my velocity x axis, i need to move my x axis to the right increasing Xaxis to try and reach velocity axis
-            //        //my X axis is my min, and my velocity is my max, add what I get to my X axis
-            //        this.XAxis += ((this.XAxis +(this.VelocityX - this.XAxis))  //add my diffrence to the min value
-            //            - this.XAxis)                                           //minus this number(the value) by the min
-            //            / (this.VelocityX - this.XAxis);                        //then divide it by the diffrence
-            //    }
-            //    else
-            //    {
-            //        // X axis is greater than velocity, we need to subtract from x axis to try and reach velocity
-            //        //do what we did before but subcract from
-            //        this.XAxis -= ((this.XAxis - this.VelocityX) - this.XAxis) / (this.VelocityX - this.XAxis);
-            //    }
-
-            //    //now do the same for the Y axis
-            //    if (this.YAxis < this.VelocityY)
-            //    {
-            //        this.YAxis += ((this.YAxis - this.VelocityY) - this.YAxis) / (this.VelocityY - this.YAxis);
-            //    }
-            //    else
-            //    {
-            //        this.YAxis -= ((this.YAxis - this.VelocityY) - this.YAxis) / (this.VelocityY - this.YAxis);
-            //    }
-            //}
-
-            //this.XAxis = VelocityX;
-            //this.YAxis = VelocityY;
         }
 
         public void Deceleration(double X, double Y)
@@ -185,12 +133,36 @@ namespace Shootin
         //    this.Add((VelocityX += AccelerationX), (VelocityY += AccelerationY));
         //}
 
+        public bool RotationDif(double rotation)
+        {
+            double hypotonusOfV = Math.Sqrt(this.VelocityX * this.VelocityX + this.VelocityY * this.VelocityY);
+            double hypotonusOfA = Math.Sqrt(this.XAxis * this.XAxis + this.YAxis * this.YAxis);
+            double R = rotation;
+            //angel of velocity
+            double angelOfVelocity = Math.Sin(this.VelocityY / hypotonusOfV);
+
+            //angel of the axis's
+            double angelOfAxis = Math.Sin(this.YAxis / hypotonusOfA);
+
+            if (angelOfVelocity  > angelOfAxis)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
         public void Acceleration(double angle, double length)
         {
             //this.Add((VelocityX += vec.GetLength()), (VelocityY += vec.GetLength()));
 
+           
             this.VelocityX += Math.Cos(angle) * length;     //sets the length of the X axis
             this.VelocityY += Math.Sin(angle) * length;     //sets the length of the Y axis
+            
+            
         }
 
         public Vector2 AddToVector2(Vector2 Vec)
@@ -208,16 +180,19 @@ namespace Shootin
             return Vec;
         }
 
-        public void InheritVector(Vector2 vec)
+        public void InheritVector(VectorPM vec)
         {
-            this.XAxis = vec.X;
-            this.YAxis = vec.Y;
+            this.XAxis = vec.XAxis;
+            this.YAxis = vec.YAxis;
         }
 
         public void SetVelocity(double angle, double length)
         {
-            this.VelocityX = Math.Cos(angle) * length;
-            this.VelocityY = Math.Sin(angle) * length;
+            //this.VelocityX = Math.Cos(angle) * length;
+            //this.VelocityY = Math.Sin(angle) * length;
+
+            this.VelocityX =+ Math.Cos(angle) * length;
+            this.VelocityY =+ Math.Sin(angle) * length;
         }
 
         public void AddToAngleAndLength(double angle, double length)

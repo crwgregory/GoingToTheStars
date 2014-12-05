@@ -1,1 +1,2 @@
 C:\Users\Greg Christopherson\Documents\GitHub\GoingToTheStars\Shootin\Shootin\ShootinContent\obj\x86\Debug\ShootinContent.contentprojResolveAssemblyReference.cache
+C:\Users\Technologist SP\Documents\GitHub\GoingToTheStars\Shootin\Shootin\ShootinContent\obj\x86\Debug\ShootinContent.contentprojResolveAssemblyReference.cache

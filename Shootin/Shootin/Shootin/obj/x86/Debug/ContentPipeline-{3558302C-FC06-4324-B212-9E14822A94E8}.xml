@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Greg Christopherson\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\rock_planet_sprite_by_fidgetwidget-d32erpc.xnb</Output>
-      <Time>2014-11-28T09:32:16.2696366-07:00</Time>
+      <Output>C:\Users\Technologist SP\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\rock_planet_sprite_by_fidgetwidget-d32erpc.xnb</Output>
+      <Time>2014-12-01T08:10:42.6440157-07:00</Time>
     </Item>
     <Item>
       <Source>011.jpg</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Greg Christopherson\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\011.xnb</Output>
-      <Time>2014-11-28T10:45:32.0782313-07:00</Time>
+      <Output>C:\Users\Technologist SP\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\011.xnb</Output>
+      <Time>2014-12-01T08:10:42.5971349-07:00</Time>
     </Item>
     <Item>
       <Source>Planet.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Greg Christopherson\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\Planet.xnb</Output>
-      <Time>2014-11-28T10:47:26.7720158-07:00</Time>
+      <Output>C:\Users\Technologist SP\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\Planet.xnb</Output>
+      <Time>2014-12-01T08:10:42.6127603-07:00</Time>
     </Item>
     <Item>
       <Source>Circle.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Greg Christopherson\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\Circle.xnb</Output>
-      <Time>2014-11-28T12:22:27.1032924-07:00</Time>
+      <Output>C:\Users\Technologist SP\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\Circle.xnb</Output>
+      <Time>2014-12-01T08:10:42.5971349-07:00</Time>
     </Item>
     <Item>
       <Source>Sun.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Greg Christopherson\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\Sun.xnb</Output>
-      <Time>2014-11-28T12:24:48.6000686-07:00</Time>
+      <Output>C:\Users\Technologist SP\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\Sun.xnb</Output>
+      <Time>2014-12-04T14:36:02.9072366-07:00</Time>
     </Item>
     <Item>
       <Source>PlanetHM.png</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Greg Christopherson\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\PlanetHM.xnb</Output>
-      <Time>2014-11-28T12:26:38.0514632-07:00</Time>
+      <Output>C:\Users\Technologist SP\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\PlanetHM.xnb</Output>
+      <Time>2014-12-01T08:10:42.6127603-07:00</Time>
     </Item>
     <Item>
       <Source>Ship.png</Source>
@@ -61,8 +61,71 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Greg Christopherson\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\Ship.xnb</Output>
-      <Time>2014-11-28T17:25:55.1148829-07:00</Time>
+      <Output>C:\Users\Technologist SP\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\Ship.xnb</Output>
+      <Time>2014-12-01T08:10:42.6127603-07:00</Time>
+    </Item>
+    <Item>
+      <Source>SpriteFont1.spritefont</Source>
+      <Name>SpriteFont1</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Technologist SP\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\SpriteFont1.xnb</Output>
+      <Time>2014-12-04T12:48:29.5551994-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image1.png</Source>
+      <Name>Image1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Technologist SP\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\Image1.xnb</Output>
+      <Time>2014-12-04T12:57:58.9752925-07:00</Time>
+    </Item>
+    <Item>
+      <Source>blackhole-icon.png</Source>
+      <Name>blackhole-icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Technologist SP\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\blackhole-icon.xnb</Output>
+      <Time>2014-12-04T16:49:50.7740993-07:00</Time>
+    </Item>
+    <Item>
+      <Source>gravship.png</Source>
+      <Name>gravship</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Technologist SP\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\gravship.xnb</Output>
+      <Time>2014-12-04T14:34:53.8227845-07:00</Time>
+    </Item>
+    <Item>
+      <Source>SpaceJPG2.jpg</Source>
+      <Name>SpaceJPG2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Technologist SP\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\SpaceJPG2.xnb</Output>
+      <Time>2014-12-04T16:15:55.9180177-07:00</Time>
+    </Item>
+    <Item>
+      <Source>SpacePNG.png</Source>
+      <Name>SpacePNG</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Technologist SP\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\SpacePNG.xnb</Output>
+      <Time>2014-12-04T16:23:34.8836352-07:00</Time>
+    </Item>
+    <Item>
+      <Source>SpaceBlueNebula.png</Source>
+      <Name>SpaceBlueNebula</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Technologist SP\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\SpaceBlueNebula.xnb</Output>
+      <Time>2014-12-04T16:39:50.192529-07:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -71,10 +134,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Greg Christopherson\Documents\GitHub\GoingToTheStars\Shootin\Shootin\ShootinContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Greg Christopherson\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Greg Christopherson\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Greg Christopherson\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Technologist SP\Documents\GitHub\GoingToTheStars\Shootin\Shootin\ShootinContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Technologist SP\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Technologist SP\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Technologist SP\Documents\GitHub\GoingToTheStars\Shootin\Shootin\Shootin\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -102,8 +165,8 @@
         <Value>2011-09-01T17:22:30-06:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2014-11-27T21:23:34.432337-07:00</Value>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-12-01T08:23:55.2093905-07:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
