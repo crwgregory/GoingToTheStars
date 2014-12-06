@@ -25,12 +25,14 @@ namespace Shootin
         Texture2D Ship;
         Texture2D BackgroundTexture;
         Texture2D BlackHoleIMG;
+        Texture2D TestPOS;
 
         Vector2 MoonPosition = Vector2.Zero;
         Vector2 Sun1 = Vector2.Zero;
         Vector2 Sun2 = Vector2.Zero;
         Vector2 NewMoonPosition = Vector2.Zero;
         Vector2 ShipPos = Vector2.Zero;
+        Vector2 TestPos = Vector2.Zero;
 
         Rectangle ShipRec;
         Rectangle blackHoleRectangle;
@@ -82,7 +84,7 @@ namespace Shootin
         {
             // TODO: Add your initialization logic here
             this.SirShip.isShip = true;
-            this.SirShip.fuel = 100;
+            this.SirShip.fuel = 70000;
             this.SunSAT1 = new Satellite();
             this.SunSAT2 = new Satellite();
             this.SunSAT1.Movement.Place(300, 400);
@@ -107,6 +109,7 @@ namespace Shootin
             Sun1Tex = Content.Load<Texture2D>("Sun");
             BackgroundTexture = Content.Load<Texture2D>("SpaceBlueNebula");
             BlackHoleIMG = Content.Load<Texture2D>("blackhole-icon");
+            TestPOS = Content.Load<Texture2D>("Ship");
 
             this.Font = Content.Load<SpriteFont>("SpriteFont1");
 
@@ -231,7 +234,7 @@ namespace Shootin
             screenWidth = graphics.PreferredBackBufferWidth;
 
             Rectangle screenRectangle = new Rectangle(0, 0, screenWidth, screenHeight);
-            blackHoleRectangle = new Rectangle(900, 200, BlackHoleIMG.Bounds.Width, BlackHoleIMG.Bounds.Height);
+            blackHoleRectangle = new Rectangle(900, 200, 100, 100);
 
             this.BlackHole.XAxis = blackHoleRectangle.Center.X - 76;
             this.BlackHole.YAxis = blackHoleRectangle.Center.Y -76;
@@ -242,12 +245,17 @@ namespace Shootin
 
         private bool HitGoal()
         {
-            if (this.ShipRec.Center.X == blackHoleRectangle.Center.X - 76
-                || this.ShipRec.X == blackHoleRectangle.Center.X - 76
+            if (this.ShipRec.Center.X == blackHoleRectangle.Center.X
+                && this.ShipRec.X == blackHoleRectangle.Center.Y
                 ) //used for putting the ship on the other side of the screen if it goes off
             {
                 return true;
             }
+            //this.TestPos.X = blackHoleRectangle.Center.X;
+            //this.TestPos.Y = blackHoleRectangle.Center.Y;
+
+            //this.TestPos.X = this.ShipRec.X;
+            //this.TestPos.Y = this.ShipRec.Y;
             //if (this.ShipRec.X == blackHoleRectangle.Bottom)
             //{
             //    this.SirShip.Movement.XAxis = graphics.PreferredBackBufferWidth;
@@ -294,8 +302,8 @@ namespace Shootin
 
             spriteBatch.DrawString(Font, this.SirShip.fuel.ToString(), new Vector2(50, 50), Color.White);
             spriteBatch.Draw(Ship, ShipRec, null, Color.White, this.SirShip.rotation, new Vector2(64, 64), SpriteEffects.None, 0);
-            
-            
+
+            spriteBatch.Draw(TestPOS, TestPos, Color.White);
             //spriteBatch.Draw(Sun1Tex, Sun2, Color.White);
             spriteBatch.Draw(Sun1Tex, Sun1, Color.White);
       
